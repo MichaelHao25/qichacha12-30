@@ -63,6 +63,7 @@
 		display inline-block
 		background #eaf2ff
 	.btn-group
+		margin-top 10px
 		display block
 		a
 			margin-top 20px
@@ -132,17 +133,23 @@
 			border-top 1px solid #EFF2F5
 			span
 				padding 0 4%
-				max-width 25%
+				max-width 140px
+				width 25%
+				text-align center
 				box-sizing border-box
 				float left
 				background #fcfcfd
 				transition 0.3s
 				cursor pointer
+				@media(max-width 767px)
+					font-size 12px
+					padding 0
 				&+span
 					border-left 1px solid #EFF2F5
 				&:hover
 				&.active
 					background #fff
+					color #2d8fed
 		.tabs-wrap
 			padding 0 15px
 			margin-top 10px
@@ -181,7 +188,7 @@
 					margin-top 20px
 				table
 					width 100%
-					min-width 700px
+					// min-width 700px
 					tr,th,td
 						padding 10px
 						font-size 14px
@@ -267,3 +274,11 @@
 					height 300px
 					resize vertical
 					
+
+
+.bdl
+	border-left 1px solid #eee
+	@media(max-width 992px)
+		border-left none
+		margin-top 10px
+		border-top 1px solid #eee
