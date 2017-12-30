@@ -1,0 +1,624 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 101 Template</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/c.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header class="navbar"> 
+            <div class="container "> 
+                <div class="navbar-header"> 
+                    <a class="btn btn-link visible-xs" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false"> <i class="fa fa-bars"></i> </a> 
+                    <a href="#" class="navbar-brand"> <img src="img/logo4.png" class="m-r-sm" alt="企查查" /><i></i></a> 
+                    <a class="btn btn-link visible-xs" href="#"> <i class="fa fa-user"></i> </a> 
+                </div> 
+                <ul class="nav navbar-nav collapse navbar-collapse" id="bs-navbar"> 
+                    <li class="active"><a href="#">查企业</a></li> 
+                    <li class=""><a href="#">搜老板</a></li> 
+                    <li class=""><a href="#" target="_blank">英文版</a></li> 
+                    <li class="dropdown nav-app"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 应用 <i class="fa  fa-angle-down"></i> </a> 
+                        <section class="dropdown-menu aside-lg bg-white on animated fadeInLeft app-box"> 
+                            <div class="row m-l-none m-r-none m-t m-b text-center"> 
+                                <div class="col-xs-4"> 
+                                    <div class="padder-v"> 
+                                        <a href="#" class="header-icon-text"> <span class=""> <i class="header-icon1"></i> </span> <span>雷达监控</span> </a> 
+                                    </div> 
+                                </div> 
+                                <div class="col-xs-4"> 
+                                    <div class="padder-v"> 
+                                        <a href="#" class="header-icon-text"> <span class=""> <i class="header-icon3"></i> </span> <span>千寻地图</span> </a> 
+                                    </div> 
+                                </div> 
+                                <div class="col-xs-4"> 
+                                    <div class="padder-v"> 
+                                        <a href="#" class="header-icon-text"> <span class=""> <i class="header-icon2"></i> </span> <span>网址导航</span> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </section> 
+                    </li> 
+                </ul>
+                <div class="pull-right hidden-xs nav-right"> 
+                    <a href="#" class="#">免费注册</a> 
+                    <div class="head-line">
+                        |
+                    </div> 
+                    <a href="#" class="#"> 登录 </a> 
+                    <div class="head-line">
+                        |
+                    </div> 
+                    <a href="#" target="_blank" class="#">会员服务</a> 
+                    <div class="head-line">
+                        |
+                    </div> 
+                    <a href="#" class="#">APP下载</a> 
+                </div> 
+            </div> 
+        </header>
+        <div class="search-box">
+            <h1>查企业，就上企查查！</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <ul class="type hidden-xs clearfix">
+                                            <li class="active">全部</li>
+                                            <li>企业名（还是搜索）</li>
+                                            <li>法人/股东</li>
+                                            <li>高管品牌/产品</li>
+                                            <li>地址/电话</li>
+                                            <li>经营范围</li>
+                                        </ul>
+                                        <form action="">
+                                            <input type="text" name="" id="" placeholder="请输入企业名称、人名，产品名等，多关键词用空格隔开，如“小米 雷军”">
+                                            <input type="submit" value="查一下">
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="hot">
+                                            <span>热搜：</span>
+                                            <span>
+                                                <a href="#">此处搜索显示搜索热词</a>
+                                                <a href="#">首富许家印</a>
+                                                <a href="#">贾跃亭成老赖</a>
+                                                <a href="#">苹果X</a>
+                                                <a href="#">王者荣耀</a>
+                                            </span>
+                                            <a href="#" class="more">
+                                                <span></span>
+                                                换一批
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-menu hidden-xs">
+            <div class="container">
+                <a href="#"><span>查商标</span><small>2400万+商标</small></a>
+                <a href="#"> <span>查专利</span> <small>2000万+专利</small></a>
+                <a href="#"> <span>查失信</span> <small>2000万+失信信息</small></a>
+                <a href="#"> <span>查裁判文书</span> <small>3000万+裁判文书</small></a>
+                <a href="#"> <span>查著作权</span> <small>1000万+著作权</small> </a>
+            </div>
+        </div>
+        <div class="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 hidden-xs">
+                        <section class="panel">
+                            <div class="panel-heading clearfix">
+                                <span class="pull-left">推荐新闻（此处显示推荐新闻）</span>
+                                <span class="pull-right"><a href="#" class="text-muted v3e_more">查看更多&gt;</a></span>
+                            </div>
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="clearfix">
+                                        <div class="pull-left img"><img src="img/1506742992538728.jpg" ></div>
+                                        <div class="pull-left text"><a href="#">欢乐打卡，赢取免费VIP，人人有份哦！</a><small>6天前</small> </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="pull-left img"><img src="img/1506735390293041.png"></div>
+                                        <div class="pull-left text"> <a href="#">滴滴程维：能源互联网、交通互联网和英特网“三网融合”是未来最大趋势</a> <small>7天前</small> </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="pull-left img"><img src="img/1506569410816320.png"> </div>
+                                        <div class="pull-left text"> <a href="#">3年时间，月利润破1亿，估值超百亿，85后理工男如何奇袭金融界？</a> <small>8天前</small> </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="pull-left img"><img src="img/1506494444443700.png"></div>
+                                        <div class="pull-left text"> <a href="#">阿里大文娱游戏事业群成立，要在游戏上“追鹅超猪”</a> <small>9天前</small> </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-md-6 hcl-0824">
+                        <section class="panel">
+                            <div class="panel-heading clearfix">
+                                <span class="pull-left">最新头条（此处显示最新文章）</span>
+                                <span class="pull-right"><a href="#" class="text-muted v3e_more">查看更多&gt;</a></span>
+                            </div>
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="clearfix">
+                                        <div class="pull-left img"><img src="img/1506742992538728.jpg" ></div>
+                                        <div class="pull-left text"><a href="#">欢乐打卡，赢取免费VIP，人人有份哦！</a><small>6天前</small> </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="pull-left img"><img src="img/1506735390293041.png"></div>
+                                        <div class="pull-left text"> <a href="#">滴滴程维：能源互联网、交通互联网和英特网“三网融合”是未来最大趋势</a> <small>7天前</small> </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="pull-left img"><img src="img/1506569410816320.png"> </div>
+                                        <div class="pull-left text"> <a href="#">3年时间，月利润破1亿，估值超百亿，85后理工男如何奇袭金融界？</a> <small>8天前</small> </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="pull-left img"><img src="img/1506494444443700.png"></div>
+                                        <div class="pull-left text"> <a href="#">阿里大文娱游戏事业群成立，要在游戏上“追鹅超猪”</a> <small>9天前</small> </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 hidden-xs">
+                        <section class="panel wrap">
+                            <div class="panel-heading">
+                                <ul class="nav nav-tabs nav-justified">
+                                    <li class="active"><a href="#new" data-toggle="tab">最新注册公司</a></li>
+                                    <li><a href="#cert" data-toggle="tab">最新认领公司</a></li>
+                                    <li><a class="#" href="#area" data-toggle="tab">按区域查公司</a></li>
+                                    <li><a class="#" href="#hangye" data-toggle="tab">按行业查公司</a></li>
+                                </ul>
+                            </div>
+                            <div class="panel-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="new">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="tab-pane fade " id="cert">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <section class="panel panel-default">
+                                                    <div class="panel-body m_ahover">
+                                                        <a href="#">宿迁市凌盛通讯设备有限公司</a>
+                                                        <p class="text-muted m-t-xs text-xs">成立日期：2017-10-02</p>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="tab-pane fade " id="area">
+                                        <ul class="clearfix">
+                                            <li><a href="#">安徽</a></li>
+                                            <li><a href="#">北京</a></li>
+                                            <li><a href="#">重庆</a></li>
+                                            <li><a href="#">福建</a></li>
+                                            <li><a href="#">甘肃</a></li>
+                                            <li><a href="#">广东</a></li>
+                                            <li><a href="#">广西</a></li>
+                                            <li><a href="#">贵州</a></li>
+                                            <li><a href="#">海南</a></li>
+                                            <li><a href="#">河北</a></li>
+                                            <li><a href="#">黑龙江</a></li>
+                                            <li><a href="#">河南</a></li>
+                                            <li><a href="#">湖北</a></li>
+                                            <li><a href="#">湖南</a></li>
+                                            <li><a href="#">江苏</a></li>
+                                            <li><a href="#">江西</a></li>
+                                            <li><a href="#">吉林</a></li>
+                                            <li><a href="#">辽宁</a></li>
+                                            <li><a href="#">内蒙古</a></li>
+                                            <li><a href="#">宁夏</a></li>
+                                            <li><a href="#">青海</a></li>
+                                            <li><a href="#">山东</a></li>
+                                            <li><a href="#">上海</a></li>
+                                            <li><a href="#">山西</a></li>
+                                            <li><a href="#">陕西</a></li>
+                                            <li><a href="#">四川</a></li>
+                                            <li><a href="#">天津</a></li>
+                                            <li><a href="#">新疆</a></li>
+                                            <li><a href="#">西藏</a></li>
+                                            <li><a href="#">云南</a></li>
+                                            <li><a href="#">浙江</a></li>
+                                            <li><a href="#">总局</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade " id="hangye">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h4><a href="#">制造业</a></h4>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <ul class="clearfix">
+                                                    <li><a href="#">农副食品加工业</a></li>
+                                                    <li><a href="#">食品制造业</a></li>
+                                                    <li><a href="#">酒、饮料和精制茶制造业</a></li>
+                                                    <li><a href="#">烟草制品业</a></li>
+                                                    <li><a href="#">纺织业</a></li>
+                                                    <li><a href="#">纺织服装、服饰业</a></li>
+                                                    <li><a href="#">皮革、毛皮、羽毛及其制品和制鞋业</a></li>
+                                                    <li><a href="#">木材加工和木、竹、藤、棕、草制品业</a></li>
+                                                    <li><a href="#">家具制造业</a></li>
+                                                    <li><a href="#">造纸和纸制品业</a></li>
+                                                    <li><a href="#">印刷和记录媒介复制业</a></li>
+                                                    <li><a href="#">文教、工美、体育和娱乐用品制造业</a></li>
+                                                    <li><a href="#">石油加工、炼焦和核燃料加工业</a></li>
+                                                    <li><a href="#">化学原料和化学制品制造业</a></li>
+                                                    <li><a href="#">医药制造业</a></li>
+                                                    <li><a href="#">化学纤维制造业</a></li>
+                                                    <li><a href="#">橡胶和塑料制品业</a></li>
+                                                    <li><a href="#">非金属矿物制品业</a></li>
+                                                    <li><a href="#">黑色金属冶炼和压延加工业</a></li>
+                                                    <li><a href="#">有色金属冶炼和压延加工业</a></li>
+                                                    <li><a href="#">金属制品业</a></li>
+                                                    <li><a href="#">通用设备制造业</a></li>
+                                                    <li><a href="#">专用设备制造业</a></li>
+                                                    <li><a href="#">汽车制造业</a></li>
+                                                    <li><a href="#">铁路、船舶、航空航天和其他运输设备制造业</a></li>
+                                                    <li><a href="#">电气机械和器材制造业</a></li>
+                                                    <li><a href="#">计算机、通信和其他电子设备制造业</a></li>
+                                                    <li><a href="#">仪器仪表制造业</a></li>
+                                                    <li><a href="#">其他制造业</a></li>
+                                                    <li><a href="#">废弃资源综合利用业</a></li>
+                                                    <li><a href="#">金属制品、机械和设备修理业</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h4><a href="#">制造业</a></h4>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <ul class="clearfix">
+                                                    <li><a href="#">农副食品加工业</a></li>
+                                                    <li><a href="#">食品制造业</a></li>
+                                                    <li><a href="#">酒、饮料和精制茶制造业</a></li>
+                                                    <li><a href="#">烟草制品业</a></li>
+                                                    <li><a href="#">纺织业</a></li>
+                                                    <li><a href="#">纺织服装、服饰业</a></li>
+                                                    <li><a href="#">皮革、毛皮、羽毛及其制品和制鞋业</a></li>
+                                                    <li><a href="#">木材加工和木、竹、藤、棕、草制品业</a></li>
+                                                    <li><a href="#">家具制造业</a></li>
+                                                    <li><a href="#">造纸和纸制品业</a></li>
+                                                    <li><a href="#">印刷和记录媒介复制业</a></li>
+                                                    <li><a href="#">文教、工美、体育和娱乐用品制造业</a></li>
+                                                    <li><a href="#">石油加工、炼焦和核燃料加工业</a></li>
+                                                    <li><a href="#">化学原料和化学制品制造业</a></li>
+                                                    <li><a href="#">医药制造业</a></li>
+                                                    <li><a href="#">化学纤维制造业</a></li>
+                                                    <li><a href="#">橡胶和塑料制品业</a></li>
+                                                    <li><a href="#">非金属矿物制品业</a></li>
+                                                    <li><a href="#">黑色金属冶炼和压延加工业</a></li>
+                                                    <li><a href="#">有色金属冶炼和压延加工业</a></li>
+                                                    <li><a href="#">金属制品业</a></li>
+                                                    <li><a href="#">通用设备制造业</a></li>
+                                                    <li><a href="#">专用设备制造业</a></li>
+                                                    <li><a href="#">汽车制造业</a></li>
+                                                    <li><a href="#">铁路、船舶、航空航天和其他运输设备制造业</a></li>
+                                                    <li><a href="#">电气机械和器材制造业</a></li>
+                                                    <li><a href="#">计算机、通信和其他电子设备制造业</a></li>
+                                                    <li><a href="#">仪器仪表制造业</a></li>
+                                                    <li><a href="#">其他制造业</a></li>
+                                                    <li><a href="#">废弃资源综合利用业</a></li>
+                                                    <li><a href="#">金属制品、机械和设备修理业</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h4><a href="#">制造业</a></h4>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <ul class="clearfix">
+                                                    <li><a href="#">农副食品加工业</a></li>
+                                                    <li><a href="#">食品制造业</a></li>
+                                                    <li><a href="#">酒、饮料和精制茶制造业</a></li>
+                                                    <li><a href="#">烟草制品业</a></li>
+                                                    <li><a href="#">纺织业</a></li>
+                                                    <li><a href="#">纺织服装、服饰业</a></li>
+                                                    <li><a href="#">皮革、毛皮、羽毛及其制品和制鞋业</a></li>
+                                                    <li><a href="#">木材加工和木、竹、藤、棕、草制品业</a></li>
+                                                    <li><a href="#">家具制造业</a></li>
+                                                    <li><a href="#">造纸和纸制品业</a></li>
+                                                    <li><a href="#">印刷和记录媒介复制业</a></li>
+                                                    <li><a href="#">文教、工美、体育和娱乐用品制造业</a></li>
+                                                    <li><a href="#">石油加工、炼焦和核燃料加工业</a></li>
+                                                    <li><a href="#">化学原料和化学制品制造业</a></li>
+                                                    <li><a href="#">医药制造业</a></li>
+                                                    <li><a href="#">化学纤维制造业</a></li>
+                                                    <li><a href="#">橡胶和塑料制品业</a></li>
+                                                    <li><a href="#">非金属矿物制品业</a></li>
+                                                    <li><a href="#">黑色金属冶炼和压延加工业</a></li>
+                                                    <li><a href="#">有色金属冶炼和压延加工业</a></li>
+                                                    <li><a href="#">金属制品业</a></li>
+                                                    <li><a href="#">通用设备制造业</a></li>
+                                                    <li><a href="#">专用设备制造业</a></li>
+                                                    <li><a href="#">汽车制造业</a></li>
+                                                    <li><a href="#">铁路、船舶、航空航天和其他运输设备制造业</a></li>
+                                                    <li><a href="#">电气机械和器材制造业</a></li>
+                                                    <li><a href="#">计算机、通信和其他电子设备制造业</a></li>
+                                                    <li><a href="#">仪器仪表制造业</a></li>
+                                                    <li><a href="#">其他制造业</a></li>
+                                                    <li><a href="#">废弃资源综合利用业</a></li>
+                                                    <li><a href="#">金属制品、机械和设备修理业</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h4><a href="#">制造业</a></h4>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <ul class="clearfix">
+                                                    <li><a href="#">农副食品加工业</a></li>
+                                                    <li><a href="#">食品制造业</a></li>
+                                                    <li><a href="#">酒、饮料和精制茶制造业</a></li>
+                                                    <li><a href="#">烟草制品业</a></li>
+                                                    <li><a href="#">纺织业</a></li>
+                                                    <li><a href="#">纺织服装、服饰业</a></li>
+                                                    <li><a href="#">皮革、毛皮、羽毛及其制品和制鞋业</a></li>
+                                                    <li><a href="#">木材加工和木、竹、藤、棕、草制品业</a></li>
+                                                    <li><a href="#">家具制造业</a></li>
+                                                    <li><a href="#">造纸和纸制品业</a></li>
+                                                    <li><a href="#">印刷和记录媒介复制业</a></li>
+                                                    <li><a href="#">文教、工美、体育和娱乐用品制造业</a></li>
+                                                    <li><a href="#">石油加工、炼焦和核燃料加工业</a></li>
+                                                    <li><a href="#">化学原料和化学制品制造业</a></li>
+                                                    <li><a href="#">医药制造业</a></li>
+                                                    <li><a href="#">化学纤维制造业</a></li>
+                                                    <li><a href="#">橡胶和塑料制品业</a></li>
+                                                    <li><a href="#">非金属矿物制品业</a></li>
+                                                    <li><a href="#">黑色金属冶炼和压延加工业</a></li>
+                                                    <li><a href="#">有色金属冶炼和压延加工业</a></li>
+                                                    <li><a href="#">金属制品业</a></li>
+                                                    <li><a href="#">通用设备制造业</a></li>
+                                                    <li><a href="#">专用设备制造业</a></li>
+                                                    <li><a href="#">汽车制造业</a></li>
+                                                    <li><a href="#">铁路、船舶、航空航天和其他运输设备制造业</a></li>
+                                                    <li><a href="#">电气机械和器材制造业</a></li>
+                                                    <li><a href="#">计算机、通信和其他电子设备制造业</a></li>
+                                                    <li><a href="#">仪器仪表制造业</a></li>
+                                                    <li><a href="#">其他制造业</a></li>
+                                                    <li><a href="#">废弃资源综合利用业</a></li>
+                                                    <li><a href="#">金属制品、机械和设备修理业</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-wrap">
+                <div class="container">
+                    <div class="row mb20 nav hidden-xs">
+                        <div class="col-md-2">
+                            <h4>关于我们</h4>
+                            <ul>
+                            <li><a href="#">系我们</a></li>
+                            <li><a href="#">户协议</a></li>
+                            <li><a href="#">户隐私权</a></li>
+                            <li><a href="#">情链接</a></li>
+                            <li><a href="#">于我们</a></li>
+                            <li><a href="#">户帮助</a></li>
+                            <li><a href="#">司黄页</a></li>
+                            <li><a href="#">放平台</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>联系方式</h4>
+                            <ul>
+                            <li>联系电话：400-998-5212</li>
+                            <li>官方客服QQ：4009985212</li>
+                            <li>客服邮箱：kf@qichacha.com</li>
+                            <li>微信客服：qccgf123</li>
+                            <li>微信公众号：qcc365</li>
+                            <li>地址：苏州工业园区月亮湾路10号慧湖大厦A901室</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>友情链接</h4>
+                            <ul class="clearfix">
+                                <li class="pull-left"><a href="#">新三板查询</a></li>
+                                <li class="pull-left"><a href="#">上市公司查询</a></li>
+                                <li class="pull-left"><a href="#">企查查公司大全</a></li>
+                                <li class="pull-left"><a href="#">企查查移动版</a></li>
+                                <li class="pull-left"><a href="#">企查查社区</a></li>
+                                <li class="pull-left"><a href="#">风险信息搜索</a></li>
+                                <li class="pull-left"><a href="#">知识产权搜索</a></li>
+                                <li class="pull-left"><a href="#">企业网址导航</a></li>
+                                <li class="pull-left"><a href="#">企业高管查询</a></li>
+                                <li class="pull-left"><a href="#">企业税号查询</a></li>
+                                <li class="pull-left"><a href="#">企业新闻头条</a></li>
+                                <li class="pull-left"><a href="#">企业大数据导航</a></li>
+                                <li class="pull-left"><a href="#">企查查下载</a></li>
+                                <li class="pull-left"><a href="#">企业情报局</a></li>
+                                <li class="pull-left"><a href="#">标库网</a></li>
+                                <li class="pull-left"><a href="#">乐晴智库</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/code_wx.png" alt="">
+                                    <span>微信公众号</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="img/code_wx.png" alt="">
+                                    <span>扫码下载APP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row about">
+                        <p>数据来源： <a href="#">全国企业信用信息公示系统</a> | <a href="#">中国裁判文书网</a> | <a href="#">中国执行信息公开网</a> | <a href="#">国家知识产权局</a> | <a href="#">商标局</a> | <a href="#">版权局</a></p>
+                        <p>©2014-2017 苏ICP备15042526号-4 版权所有 苏州朗动网络科技有限公司</p>
+                        <p>交流QQ群：467569586 369254293 257048933 259189047 371601207 374037798 <img src="img/dependable.png" alt=""></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    	   <div class="downloadapp"></div>
+    <div class="bottomSuspend">
+        <div class="closeSuspend"></div>
+        <a href="#"><img src="img/home_banner_5.png" alt="企查查"></a>
+    </div>
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/js.js"></script>
+    </body>
+</html>

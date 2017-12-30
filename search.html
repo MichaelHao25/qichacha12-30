@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap 101 Template</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/c.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body class="search">
+  	<header class="navbar"> 
+  		<div class="container "> 
+  			<div class="navbar-header"> 
+  				<a class="btn btn-link visible-xs" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false"> <i class="fa fa-bars"></i> </a> 
+  				<a href="#" class="navbar-brand"> <img src="img/logo4.png" class="m-r-sm" alt="企查查" /><i></i></a> 
+  				<a class="btn btn-link visible-xs" href="#"> <i class="fa fa-user"></i> </a> 
+  			</div> 
+  			<form class="navbar-form navbar-left hidden-xs">
+  				<div class="form-group">
+  					<input type="text" class="form-control" placeholder="请输入企业名称、人名，产品名等，多关键词用空格隔开，如“小米 雷军”">
+  				</div>
+  				<button type="submit" class="btn btn-default"></button>
+  			</form>
+  			<ul class="nav navbar-nav collapse navbar-collapse" id="bs-navbar"> 
+  				<li class="active"><a href="#">查企业</a></li> 
+  				<li class=""><a href="#">搜老板</a></li> 
+  				<li class=""><a href="#" target="_blank">英文版</a></li> 
+  				<li class="dropdown nav-app"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 应用 <i class="fa  fa-angle-down"></i> </a> 
+  					<section class="dropdown-menu aside-lg bg-white on animated fadeInLeft app-box"> 
+  						<div class="row m-l-none m-r-none m-t m-b text-center"> 
+  							<div class="col-xs-4"> 
+  								<div class="padder-v"> 
+  									<a href="#" class="header-icon-text"> <span class=""> <i class="header-icon1"></i> </span> <span>雷达监控</span> </a> 
+  								</div> 
+  							</div> 
+  							<div class="col-xs-4"> 
+  								<div class="padder-v"> 
+  									<a href="#" class="header-icon-text"> <span class=""> <i class="header-icon3"></i> </span> <span>千寻地图</span> </a> 
+  								</div> 
+  							</div> 
+  							<div class="col-xs-4"> 
+  								<div class="padder-v"> 
+  									<a href="#" class="header-icon-text"> <span class=""> <i class="header-icon2"></i> </span> <span>网址导航</span> </a> 
+  								</div> 
+  							</div> 
+  						</div>
+  					</section> 
+  				</li> 
+  			</ul>
+  			<div class="pull-right hidden-xs nav-right"> 
+  				<a href="#" class="#">免费注册</a> 
+  				<div class="head-line">
+  					|
+  				</div> 
+  				<a href="#" class="#"> 登录 </a> 
+  				<div class="head-line">
+  					|
+  				</div> 
+  				<a href="#" target="_blank" class="#">会员服务</a> 
+  				<div class="head-line">
+  					|
+  				</div> 
+  				<a href="#" class="#">APP下载</a> 
+  			</div> 
+  		</div> 
+  	</header>
+  	<div class="main">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-9 left">
+  					<div class="zk-filter">
+  						<div class="tabs">
+  							<span class="acti">公司</span>
+  							<span class="hidden-xs">风险信息</span>
+  							<span class="hidden-xs">知识产权</span>
+  						</div> 
+  						<div class="zk_item">
+  							<div class="box">
+  								<div class="right">
+  									<ul>
+  										<li>
+  											<p>企业状态</p>
+  											<div class="info-box">
+  												<a href="#">正常(2)</a>
+  												<a href="#">存续(6)</a>
+  												<a href="#">吊销(1)</a>
+  												<a href="#">吊销(1)</a>
+  												<a href="#">吊销(1)</a>
+  												<a href="#">吊销(1)</a>
+  												<a href="#">吊销(1)</a>
+  											</div>
+  										</li>
+  										<li>
+  											<p>注册资本</p>
+  											<div class="info-box">
+  												<a href="#">500万以下</a>
+  												<a href="#">500~1000万</a>
+  												<a href="#">1000~5000万</a>
+  												<a href="#">5000万以上</a>
+  											</div>
+  										</li>
+  										<li>
+  											<p>成立日期</p>
+  											<div class="info-box">
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  												<a href="#">2017(1)</a>
+  											</div>
+  											<span>更多<i class="acti"><img src="img/ico_1.png" alt=""></i></span>
+  										</li>
+  										<li>
+  											<p>省份地区</p>
+  											<div class="info-box">
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  												<a href="#">安徽(1)</a>
+  											</div>
+  											<span>更多<i class="acti"><img src="img/ico_1.png" alt=""></i></span>
+  										</li>
+  										<li>
+  											<p>行业门类</p>
+  											<div class="info-box">
+  												<a href="#">批发和零售业 (4)</a>
+  												<a href="#">批发和零售业 (4)</a>
+  												<a href="#">批发和零售业 (4)</a>
+  												<a href="#">批发和零售业 (4)</a>
+  												<a href="#">批发和零售业 (4)</a>
+  												<a href="#">批发和零售业 (4)</a>
+  												<a href="#">批发和零售业 (4)</a>
+  											</div>
+  											<span>更多<i class="acti"><img src="img/ico_1.png" alt=""></i></span>
+  										</li>
+  										<li>
+  											<p>高级筛选</p>
+  											<div class="info-box">
+  												<a href="#">有联系电话</a>
+  												<a href="#">有联系电话</a>
+  												<a href="#">有联系电话</a>
+  												<a href="#">有联系电话</a>
+  												<a href="#">有联系电话</a>
+  												<a href="#">有联系电话</a>
+  												<a href="#">有联系电话</a>
+  											</div>
+  											<span>更多<i class="acti"><img src="img/ico_1.png" alt=""></i></span>
+  										</li>
+  									</ul>
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+  					<div class="zk_ss"><span><span>收起</span><i><img src="img/ico_1.png" alt=""></i></span></div>
+  					<div class="panel">
+  						<div class="panel-body">
+
+  							<div class="resuit">
+  								小查为您找到<span>5000+</span>家符合条件的企业</span>
+  							</div>
+                            <div class="monblie-resuit visible-xs-block">
+                                <div class="item">
+                                    <h3>
+                                        <a href="#" class="ma_h1">吉林市吉晟金融投资控股集团有限公司</a>
+                                    </h3>
+                                    <p>经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点</p>
+                                </div>
+                                <div class="item">
+                                    <h3>
+                                        <a href="#" class="ma_h1">吉林市吉晟金融投资控股集团有限公司</a>
+                                    </h3>
+                                    <p>经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点</p>
+                                </div>
+                                <div class="item">
+                                    <h3>
+                                        <a href="#" class="ma_h1">吉林市吉晟金融投资控股集团有限公司</a>
+                                    </h3>
+                                    <p>经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点</p>
+                                </div>
+                                <div class="item">
+                                    <h3>
+                                        <a href="#" class="ma_h1">吉林市吉晟金融投资控股集团有限公司</a>
+                                    </h3>
+                                    <p>经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点</p>
+                                </div>
+                            </div>
+  							<table class="table- hidden-xs">
+  								<thead>
+  									<tr>
+  										<th width="70px">公司</th>
+  										<th></th>
+  										<th width="100px">状态</th>
+  									</tr>
+  								</thead>
+  								<tbody>
+  									<tr>
+  										<td><img src="http://co-image.qichacha.com/CompanyImage/default.jpg" alt="非法的搜索结果"></td>
+  										<td>
+  											<a href="#" class="ma_h1">吉林市吉晟金融投资控股集团有限公司</a>
+  											<br>
+  											<p>法定代表人：<a class="a-blue" href="#">张志华</a><span class="m-l">注册资本：90909.747894万人民币</span><span class="m-l">成立时间：2008-12-10</span></p>
+  											<p>电话：0432-62100982<span class="m-l">邮箱：2779908412@qq.com</span></p>
+  											<p>地址：吉林省吉林市丰满区松江南路56号（两江会馆综合楼1号楼2单元24-26层）</p>
+  											<p><i class="glyphicon glyphicon-search"></i>经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点...</p>
+  										</td>
+  										<td>
+  											<span class="ma_cbt_green">存续</span>
+  										</td>
+  									</tr>
+  									<tr>
+  										<td><img src="http://co-image.qichacha.com/CompanyImage/default.jpg" alt="非法的搜索结果"></td>
+  										<td>
+  											<a href="#" class="ma_h1">吉林市吉晟金融投资控股集团有限公司</a>
+  											<br>
+  											<p>法定代表人：<a class="a-blue" href="#">张志华</a><span class="m-l">注册资本：90909.747894万人民币</span><span class="m-l">成立时间：2008-12-10</span></p>
+  											<p>电话：0432-62100982<span class="m-l">邮箱：2779908412@qq.com</span></p>
+  											<p>地址：吉林省吉林市丰满区松江南路56号（两江会馆综合楼1号楼2单元24-26层）</p>
+  											<p><i class="glyphicon glyphicon-search"></i>经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点...</p>
+  										</td>
+  										<td>
+  											<span class="ma_cbt_green">存续</span>
+  										</td>
+  									</tr>
+  									<tr>
+  										<td><img src="http://co-image.qichacha.com/CompanyImage/default.jpg" alt="非法的搜索结果"></td>
+  										<td>
+  											<a href="#" class="ma_h1">吉林市吉晟金融投资控股集团有限公司</a>
+  											<br>
+  											<p>法定代表人：<a class="a-blue" href="#">张志华</a><span class="m-l">注册资本：90909.747894万人民币</span><span class="m-l">成立时间：2008-12-10</span></p>
+  											<p>电话：0432-62100982<span class="m-l">邮箱：2779908412@qq.com</span></p>
+  											<p>地址：吉林省吉林市丰满区松江南路56号（两江会馆综合楼1号楼2单元24-26层）</p>
+  											<p><i class="glyphicon glyphicon-search"></i>经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点...</p>
+  										</td>
+  										<td>
+  											<span class="ma_cbt_green">存续</span>
+  										</td>
+  									</tr>
+  									<tr>
+  										<td><img src="http://co-image.qichacha.com/CompanyImage/default.jpg" alt="非法的搜索结果"></td>
+  										<td>
+  											<a href="#" class="ma_h1">吉林市吉晟金融投资控股集团有限公司</a>
+  											<br>
+  											<p>法定代表人：<a class="a-blue" href="#">张志华</a><span class="m-l">注册资本：90909.747894万人民币</span><span class="m-l">成立时间：2008-12-10</span></p>
+  											<p>电话：0432-62100982<span class="m-l">邮箱：2779908412@qq.com</span></p>
+  											<p>地址：吉林省吉林市丰满区松江南路56号（两江会馆综合楼1号楼2单元24-26层）</p>
+  											<p><i class="glyphicon glyphicon-search"></i>经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点...</p>
+  										</td>
+  										<td>
+  											<span class="ma_cbt_green">存续</span>
+  										</td>
+  									</tr>
+  									<tr>
+  										<td><img src="http://co-image.qichacha.com/CompanyImage/default.jpg" alt="非法的搜索结果"></td>
+  										<td>
+  											<a href="#" class="ma_h1">吉林市吉晟金融投资控股集团有限公司</a>
+  											<br>
+  											<p>法定代表人：<a class="a-blue" href="#">张志华</a><span class="m-l">注册资本：90909.747894万人民币</span><span class="m-l">成立时间：2008-12-10</span></p>
+  											<p>电话：0432-62100982<span class="m-l">邮箱：2779908412@qq.com</span></p>
+  											<p>地址：吉林省吉林市丰满区松江南路56号（两江会馆综合楼1号楼2单元24-26层）</p>
+  											<p><i class="glyphicon glyphicon-search"></i>经营范围：资本运作及资产管理、受托管理专项资金、投融资及金融研究、重点...</p>
+  										</td>
+  										<td>
+  											<span class="ma_cbt_green">存续</span>
+  										</td>
+  									</tr>
+  								</tbody>
+  							</table>
+                            <nav aria-label="Page navigation" class="text-center">
+                                <ul class="pagination">
+                                    <li class="disabled">
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-sm-3 right">
+  					<div class="ads">
+  						<a href="#">
+  							<img src="img/rightapp.png" alt="">
+  						</a>
+  					</div>
+  					<div class="ads">
+  						<a href="#">
+  							<img src="img/righthy.png" alt="">
+  						</a>
+  					</div>
+  					<div class="panel hidden-xs">
+  						<div class="panel-heading">
+  							最近浏览
+  						</div>
+  						<div class="panel-body">
+  							<ul>
+  								<li>
+  									<a href="#">
+  										<span>大城县王远头西伦小卖部</span>
+  										<span><i class="glyphicon glyphicon-time"></i>1分钟前</span>
+  									</a>
+  								</li>
+  								<li>
+  									<a href="#">
+  										<span>大城县王远头西伦小卖部</span>
+  										<span><i class="glyphicon glyphicon-time"></i>1分钟前</span>
+  									</a>
+  								</li>
+  								<li>
+  									<a href="#">
+  										<span>大城县王远头西伦小卖部</span>
+  										<span><i class="glyphicon glyphicon-time"></i>1分钟前</span>
+  									</a>
+  								</li>
+  								<li>
+  									<a href="#">
+  										<span>大城县王远头西伦小卖部</span>
+  										<span><i class="glyphicon glyphicon-time"></i>1分钟前</span>
+  									</a>
+  								</li>
+  								<li>
+  									<a href="#">
+  										<span>大城县王远头西伦小卖部</span>
+  										<span><i class="glyphicon glyphicon-time"></i>1分钟前</span>
+  									</a>
+  								</li>
+  							</ul>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<footer class="footer">
+  		<div class="footer-wrap">
+  			<div class="container">
+  				<div class="row mb20 nav hidden-xs">
+  					<div class="col-md-2">
+  						<h4>关于我们</h4>
+  						<ul>
+  							<li><a href="#">系我们</a></li>
+  							<li><a href="#">户协议</a></li>
+  							<li><a href="#">户隐私权</a></li>
+  							<li><a href="#">情链接</a></li>
+  							<li><a href="#">于我们</a></li>
+  							<li><a href="#">户帮助</a></li>
+  							<li><a href="#">司黄页</a></li>
+  							<li><a href="#">放平台</a></li>
+  						</ul>
+  					</div>
+  					<div class="col-md-3">
+  						<h4>联系方式</h4>
+  						<ul>
+  							<li>联系电话：400-998-5212</li>
+  							<li>官方客服QQ：4009985212</li>
+  							<li>客服邮箱：kf@qichacha.com</li>
+  							<li>微信客服：qccgf123</li>
+  							<li>微信公众号：qcc365</li>
+  							<li>地址：苏州工业园区月亮湾路10号慧湖大厦A901室</li>
+  						</ul>
+  					</div>
+  					<div class="col-md-4">
+  						<h4>友情链接</h4>
+  						<ul class="clearfix">
+  							<li class="pull-left"><a href="#">新三板查询</a></li>
+  							<li class="pull-left"><a href="#">上市公司查询</a></li>
+  							<li class="pull-left"><a href="#">企查查公司大全</a></li>
+  							<li class="pull-left"><a href="#">企查查移动版</a></li>
+  							<li class="pull-left"><a href="#">企查查社区</a></li>
+  							<li class="pull-left"><a href="#">风险信息搜索</a></li>
+  							<li class="pull-left"><a href="#">知识产权搜索</a></li>
+  							<li class="pull-left"><a href="#">企业网址导航</a></li>
+  							<li class="pull-left"><a href="#">企业高管查询</a></li>
+  							<li class="pull-left"><a href="#">企业税号查询</a></li>
+  							<li class="pull-left"><a href="#">企业新闻头条</a></li>
+  							<li class="pull-left"><a href="#">企业大数据导航</a></li>
+  							<li class="pull-left"><a href="#">企查查下载</a></li>
+  							<li class="pull-left"><a href="#">企业情报局</a></li>
+  							<li class="pull-left"><a href="#">标库网</a></li>
+  							<li class="pull-left"><a href="#">乐晴智库</a></li>
+  						</ul>
+  					</div>
+  					<div class="col-md-3">
+  						<div class="row">
+  							<div class="col-md-6">
+  								<img src="img/code_wx.png" alt="">
+  								<span>微信公众号</span>
+  							</div>
+  							<div class="col-md-6">
+  								<img src="img/code_wx.png" alt="">
+  								<span>扫码下载APP</span>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="row about">
+  					<p>数据来源： <a href="#">全国企业信用信息公示系统</a> | <a href="#">中国裁判文书网</a> | <a href="#">中国执行信息公开网</a> | <a href="#">国家知识产权局</a> | <a href="#">商标局</a> | <a href="#">版权局</a></p>
+  					<p>©2014-2017 苏ICP备15042526号-4 版权所有 苏州朗动网络科技有限公司</p>
+  					<p>交流QQ群：467569586 369254293 257048933 259189047 371601207 374037798 <img src="img/dependable.png" alt=""></p>
+  				</div>
+  			</div>
+  		</div>
+  	</footer>
+
+  	<div class="downloadapp"></div>
+  	<div class="bottomSuspend">
+  		<div class="closeSuspend"></div>
+  		<a href="#"><img src="img/home_banner_5.png" alt="企查查"></a>
+  	</div>
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/js.js"></script>
+  <script>
+  	tabs_cg(".zk-filter .tabs span",".news","click","acti","",0)
+  	function tabs_cg(Oobj,Otabch,event,ClassName,Find,level){
+  		if(level==1){
+  			$(Oobj)[event](function(){
+  				var t=$(this).index();
+  				$(this).addClass(ClassName).siblings().removeClass(ClassName);
+  				$(this).parents(Otabch).find(Find).eq(t).show().siblings().hide();
+  			});
+  		}else{
+  			$(Otabch).hide();
+  			$(Otabch).first().show();
+  			$(Oobj)[event](function(){
+  				$(this).addClass(ClassName).siblings().removeClass(ClassName);
+  				$(Otabch).hide()
+  				$(Otabch).eq($(this).index()).show();
+  			})
+  		}
+
+  	}
+  </script>
+  <script>
+  	$('.zk_item .box .right ul li').find('.info-box a:eq(5)').nextAll().hide();
+  	$('.zk_item .box .right span').click(function(event) {
+  		var this1 = $(this);
+  		$(this1).parent().find(' .info-box a:eq(5)').nextAll().toggle();
+
+  		$(this1).find('i').toggleClass('acti');
+  	});
+  	var i =1;
+  	$('.zk_ss>span').click(function(event) {
+  		$('.zk_item').slideToggle()
+  		if (i) {
+  			$(this).children('span').text('展开')
+  			i=0;
+  		}else{
+  			i=1;
+  			$(this).children('span').text('收起')
+  		}
+  	});
+  </script>
+</body>
+</html>
