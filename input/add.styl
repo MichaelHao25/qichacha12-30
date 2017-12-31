@@ -65,6 +65,8 @@
 	.btn-group
 		margin-top 10px
 		display block
+		@media(max-width 767px)
+			text-align center
 		a
 			margin-top 20px
 			display block
@@ -132,7 +134,7 @@
 			background #FCFCFD
 			border-top 1px solid #EFF2F5
 			span
-				padding 0 4%
+				// padding 0 4%
 				max-width 140px
 				width 25%
 				text-align center
@@ -230,7 +232,6 @@
 					border-top none
 					padding 15px 0 10px
 					.pic
-						padding-bottom 10px
 						img
 							display block
 							max-width 170px
@@ -247,6 +248,9 @@
 						font-size 14px
 						color #2C90ED
 						background url(../img/hico22.png) left center/auto 16px no-repeat
+						@media(max-width 767px)
+							background-size 0px 0px
+							padding-left 0
 						.time
 							color #ABABAB
 					p
@@ -282,3 +286,19 @@
 		border-left none
 		margin-top 10px
 		border-top 1px solid #eee
+
+
+.text-align-center12-31
+	@media (max-width 767px)
+		text-align center
+	
+
+.dfc
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	align-items center
+	@media(max-width 767px)
+		display block
